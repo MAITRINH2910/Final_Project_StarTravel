@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <ul>
   <h6>1. Install Python</h6>
  
-   <h6>2. Install Pip - PIP for Python is a utility to manage PyPI package installations from the command line</h6>
+   <h6>2. Install Pip</h6>
     <p> Step 1: Check if PIP is Already Installed
     Type in the following command in the Command Console: <code>pip help</code>
 If PIP responds, then PIP is installed; if there’s an error saying this program could not be found, then it isn’t.</p>
@@ -16,18 +16,13 @@ To determine whether you have Python installed:
 
 Open the Windows Command window.
 When the console window opens, type in:
-python
+<code>python</code>
 If this command is not unrecognized, Python will need to be installed before you can install PIP.
 
 If the command is recognized, Python will respond with its version and a list of commands.
 
-If Python installed correctly, you should see:
-
-Python 3.7.0 (v3.7.0:1bf9cc5093, Jan 25 2019, 07:44:31) [MSC v.1914 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
-Installing PIP On Windows
 Step 1: Download PIP <a>get-pip.py</a>
-Before installing PIP, you’ll need to download get-pip.py: get-pip.py on pypa.io.
+Before installing PIP, you’ll need to download <a href="https://bootstrap.pypa.io/get-pip.py" target="_blank" rel="noopener noreferrer" data-cke-saved-href="https://bootstrap.pypa.io/get-pip.py">get-pip.py on pypa.io</a>
 
 Download the file to a temporary folder in Windows or to the “Downloads” library of your Windows installation. You can download the file to anywhere but remember where it’s been saved.
 
