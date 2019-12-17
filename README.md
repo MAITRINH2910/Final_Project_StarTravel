@@ -45,7 +45,7 @@ Open the Command Console if it isn’t already open. Under the Windows command c
 
 To install PIP type in the following:
 
-python get-pip.py
+py get-pip.py
 PIP should install itself. If the file isn’t found, you may need to navigate to a different directory.
 
 You can view the contents of your current directory using the following command:
@@ -56,9 +56,10 @@ The dir command will return a full listing of the contents of a directory.
 Step 4: How to Check PIP Version
 To check the current version of PIP type following command:
 
-pip --version
+<code>pip --version</code>
 This will report back the current version of the platform.
 </ul>
+
 ## Import Library for Angular
 <ul>
   <h6>1. Angular Material</h6>
