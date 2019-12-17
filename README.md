@@ -45,7 +45,7 @@ Open the Command Console if it isn’t already open. Under the Windows command c
 
 To install PIP type in the following:
 
-py get-pip.py
+<code>py get-pip.py</code>
 PIP should install itself. If the file isn’t found, you may need to navigate to a different directory.
 
 You can view the contents of your current directory using the following command:
