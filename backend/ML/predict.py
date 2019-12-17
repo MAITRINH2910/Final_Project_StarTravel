@@ -1,7 +1,6 @@
 from sklearn.svm import SVC
 import pickle
 import numpy as np
-import config
 # city = 'Da Nang'
 # with open('data/list_of_pro_hotel_'+city+'.pickle', 'rb') as handle:
 #     list_of_pro = pickle.load(handle)
@@ -10,12 +9,12 @@ import config
 #0: rating
 #1: price
 def predict(city,pro_predict,k = 20):
-    with open('models/'+city+'.pickle', 'rb') as handle:
+    with open('../src/models/'+city+'.pickle', 'rb') as handle:
         clf = pickle.load(handle)
-    with open('data/list_of_pro_hotel_'+city+'.pickle', 'rb') as handle:
+    with open('../src/data/list_of_pro_hotel_'+city+'.pickle', 'rb') as handle:
         list_of_pro = pickle.load(handle)
     
-    X = [pro_predict[0],int(pro_predict[1]/config.UNIT_PRICE)]
+    X = [pro_predict[0],int(pro_predict[1]/300000)]
     
     for i in range (5):
         X.append(X[1])
